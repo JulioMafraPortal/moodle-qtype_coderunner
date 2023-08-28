@@ -1,0 +1,17 @@
+print('Digite 2 numeros inteiros:')
+n1= int(input())
+n2= int(input())
+soma = n1 + n2
+subtracao = n1 - n2
+multiplicacao = n1 * n2
+divisao = n1 / n2
+divisaotruncada = n1 // n2
+modulo = n1 % n2
+exponenciacao = n1 ** n2
+print(f'Soma dos numeros: {soma}')
+print(f'Subtracao dos numeros: {subtracao}')
+print(f'Multiplicacao dos numeros: {multiplicacao}')
+print(f'Divisao dos numeros: {divisao}')
+print(f'Divisao trucada dos numeros: {divisaotruncada}')
+print(f'Modulo dos numeros: {modulo}')
+print(f'Exponenciacao dos numeros: {exponenciacao}')
